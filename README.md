@@ -7,6 +7,7 @@ square input on an Arduino Uno, Nano, etc digital pin and
 outputs a loosely synchronised sinusoid wave as opposite
 polarity PWM signals on pins 5 (+ve) & 6 (-ve). It's 
 designed to be compatible with pedalShield Uno for example.
+(Pin changes necessary for that, mind.)
  
 It's intended to test the timings and reliability when
 generating a sychronised sinewave at frequencies equal to
