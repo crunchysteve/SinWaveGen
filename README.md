@@ -5,7 +5,7 @@
 SinWaveGen is a synchronised sinewave generator that takes a
 square input on an Arduino Uno, Nano, etc digital pin and
 outputs a loosely synchronised sinusoid wave as opposite
-polarity PWM signals on pins 5 (+ve) and 6 (-ve). It's 
+polarity PWM signals on pins 5 (+ve) & 6 (-ve). It's 
 designed to be compatible with pedalShield Uno for example.
  
 It's intended to test the timings and reliability when
