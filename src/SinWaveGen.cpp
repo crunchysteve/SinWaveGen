@@ -28,6 +28,7 @@ Sinewave sine;                                  //  instantiate class of sine to
 void setup(){
   // Serial.begin(9600);                        //  Serial output for debugging
 
+#ifdef AVR
   // Set PWM carrier frequency
   TCCR0B = TCCR0B & B11111000 | B00000001;      // set to 62500.00 Hz
 
@@ -35,7 +36,7 @@ void setup(){
   ADCSRA &= ~bit (ADPS0) | bit (ADPS1) | bit (ADPS2);   
                                                 //  ^ clear analogRead() default timing of 104uS
   ADCSRA |= bit (ADPS0);                        //  set analogRead() default timing to 1.5uS
-
+#endif
 
   pinMode(INPUT_PIN,INPUT);                     //  set INPUT_PIN as an input
   pinMode(LO_OUT_PIN,OUTPUT);                   //  set LO_OUT_PIN as an output 
