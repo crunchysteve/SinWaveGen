@@ -15,6 +15,9 @@ AT328p has the bandwidth to do that digitally, without
 writing the sketch entirely in assembly code. I'm pretty
 sure that option is beyond me at this stage.
 
+My aim is to create this in pure C/C++ code, in order to 
+make it compatible with almost any microcontroller.
+
 Before making public...
 ToDos:  Turn off output when input timing is null
         Create proper C++ class with header and source
