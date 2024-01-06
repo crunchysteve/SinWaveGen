@@ -23,13 +23,13 @@ make it compatible with almost any microcontroller.
 ToDos:  Turn off output when input timing is null
         Create proper C++ class with header and source
 
-### Please Note!
+### Please Note
 The project here is setup for development in PlatformIO, to
 use with ArdinoIDE, download the "src" directory, change 
 the name of the SinWaveGen.cpp file to SinWaveGen.ino, add
 Thomas Fredericks' Chrono library to ArduinoIDE, comment
 out (or delete) the very first line of SinWaveGen.ino, 
-eg ```//  #include Arduino.h``` and you're good to build.
+eg ```//  #include Arduino.h``` and you're good to build. 
 
 ©2023 [Crunchysteve bandmassa@gmail.com](bandmassa@gmail.com) 
 Modified MIT licence, commercial developers should negotiate 
