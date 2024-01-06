@@ -1,5 +1,7 @@
 ## SineWaveGen
 
+![SinWaveGen.png](SinWaveGen.png)
+
 SinWaveGen is a synchronised sinewave generator that takes a
 square input on an Arduino Uno, Nano, etc digital pin and
 outputs a loosely synchronised sinusoid wave as opposite
