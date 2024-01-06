@@ -16,11 +16,11 @@
 //  commercial developers should negotiate a paid licence with
 //  the above author.
 
-#include "Arduino.h"
+#include "Arduino.h"                            //  Remove for use with ArduinoIDE (PIO only)
+#include "Sinewave.h"                           //  uses the custom Sinewave class
 #include "Settings.h"                           //  include file containing constants and variables
-#include <Chrono.h>                             //  uses the system Chrono class
+#include <Chrono.h>                             //  uses the Chrono class by 
 #include <math.h>                               //  uses the system math class for sinf (floating point sin)
-#include "Sinewave.h"                           //  uses the local Sinewave class
 
 Chrono sampleTimer(Chrono::MICROS);             //  instantiate class of Chrono to time sample output
 Sinewave sine;                                  //  instantiate class of sine to generate output samples
