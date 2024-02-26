@@ -25,8 +25,9 @@ have I to lose trying? **NOTHING!**)
 My aim is to create this in pure C/C++ code, in order to 
 make it compatible with almost any microcontroller.
 
-ToDos:  Turn off output when input timing is null
-        Create proper C++ class with header and source
+ToDos:  Turn off output when input timing is null,<br />
+        Create proper C++ class with header and source,<br />
+        Create wave tables and formulae for several different waveforms.
 
 ### Please Note
 The project here is setup for development in PlatformIO, to
