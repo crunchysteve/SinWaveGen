@@ -1,3 +1,5 @@
+Weighing my optins on this one. My EdgieD library seems unfixable, in regard to only being capable of multiple clock signals, so I'm thinking of trying an interrupt pin for the clock input. I'm also considering archiving it.
+
 ## SineWaveGen
 
 ![SinWaveGen.png](SinWaveGen.png)
