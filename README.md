@@ -1,3 +1,5 @@
+# My repos are currently being migrated to codeberg, because I don't need Copilot to write my commit headers for me. I'm opposed to AI as it's currently visualised by "tech bros" and no longer, in any good conscience, can I consider myself ethical if I continue to use Github.
+
 Weighing my optins on this one. My EdgieD library seems unfixable, in regard to only being capable of multiple clock signals, so I'm thinking of trying an interrupt pin for the clock input. I'm also considering archiving it.
 
 ## SineWaveGen
